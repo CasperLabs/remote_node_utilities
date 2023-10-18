@@ -12,8 +12,8 @@ KEY_FILES = ["public_key_hex", "public_key.pem", "secret_key.pem"]
 class Node:
     ssh_host: str
     key_base_dir: str = "/etc/casper/validator_keys"
-    validator_key_dir: str = "/etc/casper/validator_keys/val"
-    offline_key_dir: str = "/etc/casper/validator_keys/off"
+    validator_key_dir: str = "/etc/casper/validator_keys/current_node"
+    offline_key_dir: str = "/etc/casper/validator_keys/backup_node"
     _status: Optional[dict] = None
 
     def __repr__(self):
