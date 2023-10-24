@@ -6,4 +6,4 @@ These are a work in progress and there is no expectation of support for them.
 
 If you don't understand what the script does YOU SHOULD NOT RUN IT.
 
-In this repo, node operators can collaborate on utilities to make handking a node easier.
+In this repo, node operators can collaborate on utilities to make handling a node easier.
